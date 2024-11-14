@@ -19,7 +19,7 @@ Abstract: *Despite ongoing efforts to defend neural classifiers from adversarial
 
 
 
-### Requirements
+## Requirements
 
 The code is achieved with Python 3.7.13. To install the required packages, run:
 
@@ -41,49 +41,47 @@ For the trained CausalDiff model on CIFAR-10, you can download them from the fol
 
 
 
-\- CausalDiff for CIFAR-10: [download link](https://drive.google.com/file/d/16_-Ahc6ImZV5ClUc0vM5Iivf8OJ1VSif/view?usp=sharing))
-
-https://drive.google.com/drive/folders/1istqcnPNXJ-TQFdxRqNJuInzOtlYOG1b?usp=sharing)
+- CausalDiff for CIFAR-10: [download link](https://drive.google.com/file/d/16_-Ahc6ImZV5ClUc0vM5Iivf8OJ1VSif/view?usp=sharing)
 
 
 
-Note that you have to put the pretrained model in the `checkpoints` directory.
+Note that you have to put the pre-trained model in the `checkpoints` directory.
 
 
 
-\## Run experiments on CIFAR-10
+## Run experiments on CIFAR-10
 
 
 
-\### Train CausalDiff
+### Train CausalDiff
 
 
 
-\- To train a CausalDiff on CIFAR-10 dataset:
+- To train a CausalDiff on CIFAR-10 dataset:
 
 
 
-\```bash
+```bash
 
 bash run.sh
 
-\```
+```
 
 
 
-\### AutoAttack Linf
+### AutoAttack Linf
 
 
 
-\- To get results of defending against AutoAttack Linf:
+- To get results of defending against AutoAttack Linf:
 
 
 
-\```bash
+```bash
 
 bash run_eval.sh # AutoAttack Linf wiith eps=8/255
 
-\```
+```
 
 
 
@@ -93,13 +91,11 @@ purposes only. For business inquiries, please contact [zhangmingkun20z@ict.ac.cn
 
 
 
-\## Citation
+## Citation
 
 
 
 Please cite our paper, if you happen to use this codebase:
-
-\```
 
 ```
 @article{zhang2024causaldiff,
@@ -109,5 +105,3 @@ Please cite our paper, if you happen to use this codebase:
   year={2024}
 }
 ```
-
-\```
