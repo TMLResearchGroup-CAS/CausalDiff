@@ -31,7 +31,7 @@ The code is achieved with Python 3.7.13. To install the required packages, run:
 
 
 
-\## Pre-trained CausalDiff
+## Pre-trained CausalDiff
 
 Note that you have to put all the datasets in the `datasest` directory.
 
