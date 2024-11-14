@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 nohup python -u run_eval.py > run_eval_CausalDiff.log 2>&1 &

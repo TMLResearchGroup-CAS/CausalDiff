@@ -1,0 +1,1 @@
+nohup python -u run_cifar10.py > run_train_cifar10.log 2>&1 &
