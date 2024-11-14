@@ -41,7 +41,7 @@ For the trained CausalDiff model on CIFAR-10, you can download them from the fol
 
 
 
-- CausalDiff for CIFAR-10: [download link](https://drive.google.com/file/d/16_-Ahc6ImZV5ClUc0vM5Iivf8OJ1VSif/view?usp=sharing)
+- CausalDiff for CIFAR-10: [download link](https://drive.google.com/drive/folders/1SWEW-LLIpy2Getzeo5fZMw5y1LQmk5E8)
 
 
 
