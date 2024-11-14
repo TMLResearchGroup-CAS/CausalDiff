@@ -19,15 +19,15 @@ Abstract: *Despite ongoing efforts to defend neural classifiers from adversarial
 
 
 
-\## Requirements
+### Requirements
 
 The code is achieved with Python 3.7.13. To install the required packages, run:
 
-  \```bash
+  ```bash
 
   pip install -r requirements.txt
 
-  \```
+  ```
 
 
 
