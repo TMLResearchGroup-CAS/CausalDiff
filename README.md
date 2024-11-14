@@ -8,10 +8,10 @@ Official PyTorch implementation of the NeurIPS 2024 paper:<br>
 <br>
 
 MingKun Zhang, Keping Bi, Wei Chen, Quanrun Chen, Jiafeng Guo, Xueqi Cheng<br>
-<br>
 
 https://github.com/ZhangMingKun1/CausalDiff <br>  <img width="869" height="300" src="./figure/SCM.png">
 
+<br>
 </p>
 
 
