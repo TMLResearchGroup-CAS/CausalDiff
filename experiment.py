@@ -777,8 +777,13 @@ class LitModel(pl.LightningModule):
 	
 	def forward(self, x, req_grad=True):
 		x = (x - 0.5) * 2
-		x_ben = self.search_ben(x)
-		cond = self.search_rv_with_grad(x_ben)
+		if x.requires_grad and req_grad:
+			x_ben = self.search_ben(x)
+			cond = self.search_rv_with_grad(x_ben)
+			# print(self.dec_y(cond[:, self.ema_model.lacim.s_dim:]))
+		else:
+			x_ben = self.search_ben_wograd(x)
+			cond = self.search_rv(x_ben)
 		return self.dec_y(cond[:, self.ema_model.lacim.s_dim:])
 
 
